@@ -1,0 +1,32 @@
+{
+    "get": "teams",
+    "parameters": {
+        "name": "santos",
+        "country": "Brazil"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [{
+        "team": {
+            "id": 128,
+            "name": "Santos",
+            "country": "Brazil",
+            "founded": 1912,
+            "national": false,
+            "logo": "https://media.api-sports.io/football/teams/128.png"
+        },
+        "venue": {
+            "id": 10494,
+            "name": "Estádio Urbano Caldeira",
+            "address": "Rue Princesa Isabel 77, Vila Belmiro",
+            "city": "Santos, São Paulo",
+            "capacity": 21256,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/10494.png"
+        }
+    }]
+}

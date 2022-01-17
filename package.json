@@ -4,7 +4,8 @@
   "description": "App para ver dados de times de futebol",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/hnl09/futebolApi#readme",
   "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^14.0.0",
     "express": "^4.17.2",
     "nodemon": "^2.0.15"
   }
